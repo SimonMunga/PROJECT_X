@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGuide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1, h2, p {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #fff;
+        }
+
+        #services {
+            background-color: #f4f4f4;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .cta-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+
+        @media only screen and (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>EduGuide</h1>
+        <p>Where education is readily available</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a platform dedicated to helping you find the right school without compromises!</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Find the right school from our comprehensive list of top-notch institutions</li>
+            <li>Talk to our friendly staff who will assist you in selecting schools based on your preferences</li>
+            <li>Connect with the institutions and gather more information</li>
+        </ul>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:smungam@eduguide.co.ke">smungam@eduguide.co.ke</a></p>
+        <p>Phone: <a href="tel:+254724200800">+254 724 200 800</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 EduGuide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
